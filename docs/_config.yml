@@ -1,8 +1,8 @@
 # Site settings
 title: Garlapati Bujimalla
 description: Consumer Complaint Database
-baseurl: "Garlapati_AIT580/docs" # the subpath of your site, e.g. /blog
-url: "https://vrgarlapati.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://vrgarlapati.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Banner Section
 hero: 112.jpg
@@ -23,7 +23,7 @@ author-pinterest: https://pinterest.com/
 authors:
   Natali_Braxton:
     author-name: Neehar Bujimalla
-    author-image: 111.jpg
+    author-image: 
     about-author: My name is Neehar.
     author-email: natali.example@gmail.com
     author-twitter: https://twitter.com/

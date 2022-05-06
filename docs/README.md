@@ -1,35 +1,3 @@
-Lokmont - Simple & Minimal Theme for Jekyll
-=======
-<p>Lokmont is a simple and completely responsive theme for Jekyll, suitable for any kind of bloggers and writers. It was created to be minimal, clean and at the same time functional.</p>
-
-Table of Contents
------------------
-
-*   [Demo](#demo)
-*   [Features](#features)
-*   [Deployment](#deployment)
-*   [Posts](#posts)
-*   [Other Authors](#authors)
-*   [Disqus Comments](#disqus)
-*   [Google Analytics](#analytics)
-*   [Update favicon](#favicon)
-*   [Credits](#credits)
-*   [License](#license)
-*   [Donate](#donate)
-
-* * *
-
-### Demo
-
-Check the theme in action [Demo](https://lokmont-jekyll.netlify.com/)
-
-![Main page preview](https://github.com/artemsheludko/lokmont/blob/master/images/home-page.jpg?raw=true)
-
-The post page would look like this:
-
-![Post page preview](https://github.com/artemsheludko/lokmont/blob/master/images/post-page.jpg?raw=true)
-
-* * *
 
 ### Features
 
@@ -169,9 +137,3 @@ We have used the following scripts, fonts or other files as listed.
 MIT License
 
 * * *
-
-### Donate
-
-<p>If you want to show your appreciation, buy me one <a href="https://www.buymeacoffee.com/artemsheludko" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a> ! Every five cups of coffee and a new theme for Jekyll is ready 😋</p>
-<p>Either way, your support is a way to thank me ❤️</p>
-<p align="center"><b>Thank you for your support!</b></p>
