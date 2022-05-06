@@ -1,8 +1,8 @@
 # Site settings
 title: Garlapati Bujimalla
 description: Consumer Complaint Database
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://vrgarlapati.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/docs" # the subpath of your site, e.g. /blog
+url: "https://vrgarlapati.github.io/Garlapati_AIT580/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Banner Section
 hero: 112.jpg
