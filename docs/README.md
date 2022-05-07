@@ -1,154 +1,177 @@
-# [Start Bootstrap - Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) - Official Jekyll Version
+Lokmont - Simple & Minimal Theme for Jekyll
+=======
+<p>Lokmont is a simple and completely responsive theme for Jekyll, suitable for any kind of bloggers and writers. It was created to be minimal, clean and at the same time functional.</p>
 
-[Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) is a stylish, responsive blog theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a blog homepage, about page, contact page, and an example post page along with a working contact form powered by [Formspree](https://formspree.io/).
+Table of Contents
+-----------------
 
-This repository holds the official Jekyll version of the Clean Blog theme on Start Bootstrap!
+*   [Demo](#demo)
+*   [Features](#features)
+*   [Deployment](#deployment)
+*   [Posts](#posts)
+*   [Other Authors](#authors)
+*   [Disqus Comments](#disqus)
+*   [Google Analytics](#analytics)
+*   [Update favicon](#favicon)
+*   [Credits](#credits)
+*   [License](#license)
+*   [Donate](#donate)
 
-## Preview
+* * *
 
-[![Clean Blog (Jekyll) Preview](https://startbootstrap.com/assets/img/screenshots/themes/clean-blog-jekyll.png)](http://StartBootstrap.github.io/startbootstrap-clean-blog-jekyll/)
+### Demo
 
-**[View Live Preview](http://StartBootstrap.github.io/startbootstrap-clean-blog-jekyll/)**
+Check the theme in action [Demo](https://lokmont-jekyll.netlify.com/)
 
-## Installation & Setup
+![Main page preview](https://github.com/artemsheludko/lokmont/blob/master/images/home-page.jpg?raw=true)
 
-### Using RubyGems
+The post page would look like this:
 
-When installing the theme using RubyGems, demo images, posts, and pages are not included. Follow the instructions below for complete setup.
+![Post page preview](https://github.com/artemsheludko/lokmont/blob/master/images/post-page.jpg?raw=true)
 
-1. (Optional) Create a new Jekyll site: `jekyll new my-site`
-2. Replace the current theme in your `Gemfile` with `gem "jekyll-theme-clean-blog"`.
-3. Install the theme (run the command inside your site directory): `bundle install`
-4. Replace the current theme in your `_config.yml` file with `theme: jekyll-theme-clean-blog`.
-5. Build your site: `bundle exec jekyll serve`
+* * *
 
-Assuming there are no errors and the site is building properly, follow these steps next:
+### Features
 
-1. Create the following pages if they do not exist already (or change the extension of existing markdown files from `.md` to `.html`):
+* 100% responsive and clean theme
+* Optimized for mobile devices
+* Minimal design
+* Valid HTML5 code
+* Included site search
+* Contact Page
+* Post sharing
+* Supports Mail Chimp Subscriber
+* Supports Disqus Comments
+* Social Media Profiles
+* Formspree form
+* Font Awesome fonts
+* Google Fonts
 
-   * `index.html` - set to `layout: home`
-   * `about.html` - set to `layout: page`
-   * `contact.html` - set to `layout: page`
-   * `posts/index.html` - set to `layout: page` (you will also need to create a `posts` directory)
+* * *
 
-2. Configure the `index.html` front matter. Example:
+### Deployment
 
-    ```markdown
-    ---
-    layout: home
-    background: '/PATH_TO_IMAGE'
-    ---
-    ```
+To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
 
-3. Configure the `about.html`, `contact.html`, and `posts/index.html` front matter. Example:
+I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
 
-    ```markdown
-    ---
-    layout: page
-    title: Page Title
-    description: This is the page description.
-    background: '/PATH_TO_IMAGE'
-    ---
-    ```
+* * *
 
-4. For each post in the `_posts` directory, update the front matter. Example:
+### Posts
 
-    ```markdown
-    ---
-    layout: post
-    title: "Post Title"
-    subtitle: "This is the post subtitle."
-    date: YYYY-MM-DD HH:MM:SS
-    background: '/PATH_TO_IMAGE'
-    ---
-    ```
+To create a new post, you can create a new markdown file inside the _posts directory by following the [recommended file structure](https://jekyllrb.com/docs/posts/#creating-post-files).
 
-    For reference, look at the [demo repository](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll) to see how the files are set up.
+```sh
+  ---
+  layout: post
+  title: 10 Best books of all time
+  date: 2017-10-27 18:09:50 +0300
+  img: 17.jpg
+  tags: [Books, Hobby]
+  author: Natali_Braxton # Optional
+  ---
+```        
 
-5. Add the form to the `contact.html` page. Add the following code to your `contact.html` page:
+You can set the tags, author and the post image.
 
-    ```html
-    <form name="sentMessage" id="contactForm" novalidate>
-      <div class="control-group">
-        <div class="form-group floating-label-form-group controls">
-          <label>Name</label>
-          <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-          <p class="help-block text-danger"></p>
-        </div>
-      </div>
-      <div class="control-group">
-        <div class="form-group floating-label-form-group controls">
-          <label>Email Address</label>
-          <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-          <p class="help-block text-danger"></p>
-        </div>
-      </div>
-      <div class="control-group">
-        <div class="form-group col-xs-12 floating-label-form-group controls">
-          <label>Phone Number</label>
-          <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-          <p class="help-block text-danger"></p>
-        </div>
-      </div>
-      <div class="control-group">
-        <div class="form-group floating-label-form-group controls">
-          <label>Message</label>
-          <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-          <p class="help-block text-danger"></p>
-        </div>
-      </div>
-      <br>
-      <div id="success"></div>
-      <div class="form-group">
-        <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
-      </div>
-    </form>
-    ```
+Add post images to **/images/pages/** directory.
 
-    Make sure you have the `email` setting in your `_config.yml` file set to a working email address! Once this is set, fill out the form and then check your email, verify the email address using the link sent to you by Formspree, and then the form will be working!
+For tags, try to not add space between two words, for example, `Ruby on Rails`, could be something like (`ruby-on-rails`, `Ruby_on_Rails`, or `Ruby-on-Rails`).
 
-6. Build your site: `bundle exec jekyll serve`
+* * *
 
-### Using Core Files
+### Authors
 
-When using the core files, the demo images, posts, and pages are all included with the download. After following the instructions below, you can then go and change the content of the pages and posts.
+You can add other authors for your posts. In the beginning, create the author in the file `_config.yml`
 
-1. [Download](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/archive/master.zip) or Clone the repository.
-2. Update the following configuration settings in your `_config.yml` file:
+**For example:**
 
-    * `baseurl`
-    * `url`
-    * `title`
-    * `email` (after setting this setting to a working email address, fill out the form on the contact page and send it - then check your email and verify the address and the form will send you messages when used)
-    * `description`
-    * `author`
-    * `twitter_username` (Optional)
-    * `facebook_username` (Optional)
-    * `github_username` (Optional)
-    * `linkedin_username` (Optional)
-    * `instagram_username` (Optional)
+```sh
+  # Other Authors - here you can add Other authors. For example Natali_Braxton
+  authors:
+    Natali_Braxton:
+      author-name: Natali Braxton
+      author-image: 111.jpg
+      about-author: My name is Natali Braxton. I love walking, I play the guitar in my spare time. And also write articles about different technologies.
+      author-email: natali.example@gmail.com
+      author-twitter: https://twitter.com/
+      author-facebook: https://twitter.com/
+      author-instagram: https://www.instagram.com/
+      author-pinterest: https://pinterest.com/
+```
 
-3. Build your site: `bundle exec jekyll serve`
+Then add the author in a post. Save and you are done.
 
-## Bugs and Issues
+```sh
+  ---
+  layout: post
+  title: 10 Best books of all time
+  date: 2017-10-27 18:09:50 +0300
+  img: 17.jpg
+  tags: [Books, Hobby]
+  author: Natali_Braxton
+  ---
+```
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/issues) here on GitHub!
+* * *
 
-## About
+### Disqus
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+Lokmont Theme comes with Disqus comments enabled.
 
-* <https://startbootstrap.com>
-* <https://twitter.com/SBootstrap>
+Open `_config.yml` file, and change the `mr-brown` value on line 52 with your [Disqus account shortname](https://help.disqus.com/customer/portal/articles/466208).
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**.
+```sh
+  # Comment Section (Disqus)
+  disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
+```     
 
-* <http://davidmiller.io>
-* <https://twitter.com/davidmillerhere>
-* <https://github.com/davidtmiller>
+That’s all you need to setup Disqus from the theme side. If you get any issue regarding that comments are unable to load. First, make sure you have [registered your website with Disqus (Step 1)](https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide).
 
-Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/portal/articles/472007-i-m-receiving-the-message-%22we-were-unable-to-load-disqus-%22) if you still have issues.
 
-## Copyright and License
+* * *
 
-Copyright 2013-2021 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/blob/master/LICENSE) license.
+### Analytics
+
+To integrate Google Analytics, open `_config.yml`, and add your Google Analytics identifier.
+```sh
+  # Google Analytics
+  google-analytics: # Add your identifier. For example UA-99631805-1
+```     
+
+* * *
+
+### Favicon
+
+You can find the current favicon (favicon.ico) inside the theme root directory, just replace it with your new favicon.
+
+* * *
+
+### Credits
+
+We have used the following scripts, fonts or other files as listed.
+
+*   [Google Fonts](https://fonts.google.com/) (Dancing+Script, PT+Serif, Lato, Roboto).
+*   [Font Awesome](https://fontawesome.com/v4.7.0/)
+*   [FitVids.js](http://fitvidsjs.com/)
+*   [jQuery-viewport-checker](https://github.com/dirkgroenen/jQuery-viewport-checker)
+*   [Zoom](https://github.com/fat/zoom.js)
+*   [Transition](http://getbootstrap.com/javascript/#transitions)
+*   [jQuery.com](https://jquery.com/)
+*   [Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search)
+*   Preview Images [unsplash.com](https://unsplash.com/), [pexels.com](https://www.pexels.com/)
+
+* * *
+
+### License
+
+MIT License
+
+* * *
+
+### Donate
+
+<p>If you want to show your appreciation, buy me one <a href="https://www.buymeacoffee.com/artemsheludko" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a> ! Every five cups of coffee and a new theme for Jekyll is ready 😋</p>
+<p>Either way, your support is a way to thank me ❤️</p>
+<p align="center"><b>Thank you for your support!</b></p>
