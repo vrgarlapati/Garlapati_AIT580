@@ -1,0 +1,21 @@
+I"Ž<p>We installed some necessary libraries which were required to preprocess the data and implement LDA:</p>
+
+<p>Spacy: This library is used to facilitate the implementation of NLP.</p>
+
+<p>NLTK: It is also used to work with Natural Language Processing to use stop-words library, tokenize, stem and parse documents.</p>
+
+<p>Pandas: To work with dataframes.</p>
+
+<p>String: It has constants, utility functions and classes which are used for string manipulation</p>
+
+<p>from nltk.corpus import stopwords: Used to get a list of stopwords, this is used to find a list of stopwords from the word corpus.</p>
+
+<p>Gensim: Used for topic modeling which helps in the implementation of LDA.</p>
+
+<p>Seaborn: It provides a high-level interface for drawing attractive and informative statistical graphics.</p>
+
+<p>Sklearn: Simple and efficient tools for predictive data analysis</p>
+
+<p><em>Thank You for reading!</em></p>
+
+:ET
