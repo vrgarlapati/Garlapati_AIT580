@@ -6,8 +6,9 @@ img: 18.jpg
 tags: Questions
 ---
 What are the main questions of your interests that can be answered through the data that you chose?
-To deal with data of this size, most people will use graphs. Because the dataset is so huge, it's difficult to go through it and extract insights. So, we utilized Python to extract some information from the data. Install and import all essential Python packages and dataset as the initial step. After that, the data should be cleaned for the exploratory data idea, and the data is cleansed by focusing on the customer complaint narrative, and we employed several approaches to acquiring various sorts of insight and value.
-To obtain a sense of the most common words in the consumer complaint narrative column, we developed a word cloud. This would give us a sense of the most used words in customer complaints narrative column. It is possible to draw a much clearer picture of the challenges that the customers face.
+To deal with data of this size, most people will use graphs. It's difficult to browse through the dataset and pull insights because it's so large. As a result, we used Python to extract some data from the data. As a first step, install and import all necessary Python packages and datasets. Following that, the data should be cleaned for the exploratory data idea, and the data is purified by focusing on the customer complaint narrative, and we used a variety of ways to gain various types of insight and value.
+
+A word cloud was created to get a sense of the most common words in the consumer complaint narrative column. This would give us an idea of the most often used terms in the customer complaints narrative column. It is feasible to get a much clearer view of the customers' problems.
 
 What software and hardware resources you have used in this project? 
 Excel and Jupiter Notebook are the software - based resources used in this project to help you understand and visualize data. The laptop is a hardware resource, and for visualization approaches, a Lenovo laptop with an Intel i7 processor and 12 GB of RAM, as well as a Google colab GPU, TPU, was employed.
