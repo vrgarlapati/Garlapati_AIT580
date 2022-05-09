@@ -5,16 +5,26 @@ date: 2022-05-08 17:33:29 -0400
 img: 18.jpg
 tags: Questions
 ---
-What are the main questions of your interests that can be answered through the data that you chose?
-To deal with data of this size, most people will use graphs. It's difficult to browse through the dataset and pull insights because it's so large. As a result, we used Python to extract some data from the data. As a first step, install and import all necessary Python packages and datasets. Following that, the data should be cleaned for the exploratory data idea, and the data is purified by focusing on the customer complaint narrative, and we used a variety of ways to gain various types of insight and value.
+Here are some specific questions which we would like to answer in our analysis
+    a) What type of data analysis should be done on large text data?
 
-A word cloud was created to get a sense of the most common words in the consumer complaint narrative column. This would give us an idea of the most often used terms in the customer complaints narrative column. It is feasible to get a much clearer view of the customers' problems.
+    b) Estimate the number of complaints registered in different states of the USA and which state needs to improve their banking performance based on the number of complaints reported.
 
-What software and hardware resources you have used in this project? 
-Excel and Jupiter Notebook are the software - based resources used in this project to help you understand and visualize data. The laptop is a hardware resource, and for visualization approaches, a Lenovo laptop with an Intel i7 processor and 12 GB of RAM, as well as a Google colab GPU, TPU, was employed.
+    c) In the state that registered with the highest number of complaints, what is the highest portion of the type of product and issue concerned with reported complaints?
 
-What kinds of pre-processes were needed to make use of the data, and why? 
-The dataset contains numerous null values, so EDA-Exploratory data analysis (text data pre-processing) is necessary to eliminate them. By omitting this, the data shape will become smaller and easier to process.
+    d) Estimate the proportion of types of products associated with the complaints
+
+    e) What are the first 3 product types that are associated with the complaints, and try to represent them numerically using a bar graph in the month of March 2022?
+
+    f) Which three companies are facing a more significant number of complaints and try to show them with graphical representation using bars in the month of March 2022?
+
+    g) Check how did the companies respond to their customer’s complaints.
+
+    h) Visualize the Banking Companies using wordcloud.
+
+    i) Using the sentiment analysis of the Consumer complaint narrative, discuss the different kinds of complaints and their sentiment scores.
+    
+    Here, stakeholders for our dataset are consumers who are individuals and in groups, banking companies, government authorities, and academics. The questions we have thought of addressing become vital for our them because they try to give a better picture of the data and help them understand their areas of improvement.
 
 What are the advantages and limitations of the target dataset in answering your questions?
 The target dataset is extremely large, and standard computer hardware resources will be insufficient to execute tasks such as TF-IDF, SVM, and Logistic regression fitting, as well as Deep learning. And, with this type of data set, leveraging GPU or TPU resources makes it simple to train, test, and validate the data, whereas finding the correctness of data on a standard computer is difficult.

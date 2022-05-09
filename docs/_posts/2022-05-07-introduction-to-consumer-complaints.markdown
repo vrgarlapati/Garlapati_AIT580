@@ -5,9 +5,9 @@ date: 2022-05-07 17:33:28 -0400
 img: 19.jpg
 tags: Rest
 ---
-The main idea behind our project is to find and extract patterns or confidential information from the CFPB dataset A database of consumer complaints isn't worth important if the dataset cannot be used for the betterment of the experience of the consumer. The size of this data is enormous. It has numerous missing cells, which will decrease the accuracy score during training and testing by simplifying the data further so financial companies can use it to analyze the complaints to make a difference for their customers better. The consumer complaint narrative field within our dataset contains consumers’ complaints in detail.
+Our project's main goal is to uncover and extract patterns or hidden data from the CFPB dataset. A database of consumer complaints is useless unless it can be used to improve the consumer's experience. This data is huge in size. It features multiple missing cells, which will lower the accuracy score during training and testing by further simplifying the data so that financial organizations may use it to evaluate complaints and better serve their clients. Consumer concerns are detailed in the consumer complaint narrative field of our dataset.
 
-This data of consumer complaints is precious as we can extract intriguing information from it and conceivably give contexts to these complaints so companies can address issues in a systematized matter with the expedients to retain or gain further customers. The overall analysis can also be used by the state and federal agencies to show repetitive complaints that have not been improved over time so rules or fines can be implemented to punish companies that continue to conduct poor business practices.
+This consumer complaint data is valuable because we can extract interesting information from it and perhaps offer context to these concerns, allowing businesses to address issues in a systematic manner in order to keep or gain new customers. The entire study can also be utilized by state and federal agencies to highlight repeat complaints that have not improved over time, allowing for the implementation of restrictions or fines to punish companies that continue to engage in bad business practices.
 
 ![Flower and water]({{site.baseurl}}/images/pages/18.jpg)
 
