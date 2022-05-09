@@ -3,7 +3,7 @@ layout: post
 title: "Limitations"
 date: 2022-05-08 17:33:27 -0400
 img: 16.jpg
-tags: jekyll
+tags: Data
 ---
 Limitations:
 

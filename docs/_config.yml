@@ -1,6 +1,6 @@
 # Site settings
 title: Garlapati Bujimalla
-description: Credit Information Data with Data Visulation.
+description: Credit Information Data with Data Visulation by VIDEESH REDDY GARLAPATI, NEEHAR BUJIMALLA
 baseurl: "/Garlapati_AIT580" # the subpath of your site, e.g. /blog
 url: "https://vrgarlapati.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -12,14 +12,14 @@ hero-description: Credit Information Data with Data Visulation.
 # Author - Creator
 author-name: Videesh Reddy Garlapati
 author-image: 10.jpg
-about-author: My name is Videeh.
+about-author: My name is Videeh. Student at GMU.
 author-email: help.example@gmail.com
 author-twitter: https://twitter.com/
 author-facebook: https://twitter.com/
 author-instagram: https://www.instagram.com/
 author-pinterest: https://pinterest.com/
 
-# Other Authors - here you can add Other authors. For example Natali_Braxton
+# Other Authors - here you can add Other authors.
 authors:
   Neehar Bujimalla:
     author-name: Neehar Bujimalla
@@ -40,7 +40,7 @@ pinterest: https://pinterest.com/
 youtube: https://www.youtube.com/
 
 # Contact Form Settings
-contact-subtitle: Pok pok listicle meggings, gluten-free deep v you probably haven't heard of them taxidermy iPhone gentrify seitan. Kogi cornhole enamel. # Title for the subscription form.
+contact-subtitle: Contact us if you have any doubts # Title for the subscription form.
 
 # Google Analytics
 google-analytics: # Add your identifier. For example UA-99631805-1.
