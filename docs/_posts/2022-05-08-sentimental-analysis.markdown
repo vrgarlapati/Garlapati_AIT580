@@ -64,5 +64,6 @@ fig.text(0.04, 0.5, 'Number of Complaints', fontweight='bold', va='center', rota
 plt.suptitle('Sentiment Analysis of Complaints\n\n', fontsize=12, fontweight='bold');"
 
 Output: Graphical representation can be seen by executing the last chunk of code
+![Flower and water]({{site.baseurl}}/images/pages/29.png)
 
 Observation: Here, stakeholders for our dataset are consumers who are individuals and in groups, banking companies, government authorities, and academics. The questions we have thought of addressing become vital for our them because they try to give a better picture of the data and help them understand their areas of improvement.

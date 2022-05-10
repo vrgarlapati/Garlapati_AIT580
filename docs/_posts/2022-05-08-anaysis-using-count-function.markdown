@@ -76,7 +76,7 @@ company_names = complaints.Company.values.tolist()
 
 wordcloud1 = WordCloud(max_font_size=None, max_words = 200, background_color="white", width=5000, height=4000, stopwords = stop_words).generate(str(company_names))
 
-plot_wordcloud(wordcloud1)"
+plot_wordcloud(wordcloud)"
 
 Output: Execute the above code
-![Flower and water]({{site.baseurl}}/images/pages/18.jpg)
+![Flower and water]({{site.baseurl}}/images/pages/28.png)

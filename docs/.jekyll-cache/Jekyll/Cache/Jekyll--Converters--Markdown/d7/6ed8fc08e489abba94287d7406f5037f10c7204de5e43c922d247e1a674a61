@@ -1,4 +1,4 @@
-I"�<ol>
+I"�<ol>
   <li>Which three companies are facing a more significant number of complaints and try to show them with graphical representation using bars in the month of March 2022?</li>
 </ol>
 
@@ -74,8 +74,8 @@ stop_words = stopwords.words(‘english’)</p>
 
 <p>wordcloud1 = WordCloud(max_font_size=None, max_words = 200, background_color=”white”, width=5000, height=4000, stopwords = stop_words).generate(str(company_names))</p>
 
-<p>plot_wordcloud(wordcloud1)”</p>
+<p>plot_wordcloud(wordcloud)”</p>
 
 <p>Output: Execute the above code
-<img src="/Garlapati_AIT580/images/pages/18.jpg" alt="Flower and water" /></p>
+<img src="/Garlapati_AIT580/images/pages/28.png" alt="Flower and water" /></p>
 :ET

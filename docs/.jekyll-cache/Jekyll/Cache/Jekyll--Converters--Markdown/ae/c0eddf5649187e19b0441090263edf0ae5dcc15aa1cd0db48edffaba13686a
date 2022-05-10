@@ -1,4 +1,4 @@
-I"<ol>
+I"X<ol>
   <li>Using the sentiment analysis of the Consumer complaint narrative, discuss the different kinds of complaints and their sentiment scores.</li>
 </ol>
 
@@ -58,7 +58,8 @@ fig.text(0.04, 0.5, ‘Number of Complaints’, fontweight=’bold’, va=’cen
 
 <p>plt.suptitle(‘Sentiment Analysis of Complaints\n\n’, fontsize=12, fontweight=’bold’);”</p>
 
-<p>Output: Graphical representation can be seen by executing the last chunk of code</p>
+<p>Output: Graphical representation can be seen by executing the last chunk of code
+<img src="/Garlapati_AIT580/images/pages/29.png" alt="Flower and water" /></p>
 
 <p>Observation: Here, stakeholders for our dataset are consumers who are individuals and in groups, banking companies, government authorities, and academics. The questions we have thought of addressing become vital for our them because they try to give a better picture of the data and help them understand their areas of improvement.</p>
 :ET

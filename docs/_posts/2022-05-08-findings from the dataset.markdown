@@ -78,7 +78,7 @@ Code:
     plt.show()"
 
 Graphical Representation: Execute above code
-![Flower and water]({{site.baseurl}}/images/pages/18.jpg)
+![Flower and water]({{site.baseurl}}/images/pages/27.png)
 
 Observation: Among all the types of products, Credit reporting, credit repair services, or other personal consumer reports deals with more than a million complaints that are related to it, and then comes Debt Collection and Mortgage with more than 422k and 353k number of complaints associated to them respectively. We can see that there is a sharp decrease of more than 200% of complaints with next type of products. Virtual Currency has almost negligible number of complaints.
 
