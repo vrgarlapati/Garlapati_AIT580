@@ -28,7 +28,9 @@ Code:
     complaints.Company.value_counts()[:10].plot(title = 'March 2022, Number of Complaints by Company (top 10)', kind='bar')
     plt.show()"
 
-Graphical Representation: Execute above code
+Graphical Representation:
+
+![Flower and water]({{site.baseurl}}/images/pages/52.png)
 
 Observation: EQUIFAX, INC., TRANSUNION INTERMEDIATE HOLDINGS, INC., Experian Information Solutions Inc., stands in the top 3 spots in the number game of recording complaints. It can be seen from the graph that there is more than 250% decrease in recording the complaints with the next highest, i.e., Bank of America which has 112k complaints.  
 
@@ -54,6 +56,8 @@ Code:
     plt.show()"
 
 Graphical Representation: Execute above code
+
+![Flower and water]({{site.baseurl}}/images/pages/53.png)
 
 Observation: It can be observed that most of the companies have closed the complaints with explanations and there were negligible number of complaints which were untimely responded and closed with relief.
 
