@@ -5,7 +5,7 @@ date:   2022-05-09 13:50:27 -0400
 img: 34.jpg
 tags: [Data]
 ---
-5.	Which three companies are facing a more significant number of complaints and try to show them with graphical representation using bars in the month of March 2022?
+5.Which three companies are facing a more significant number of complaints and try to show them with graphical representation using bars in the month of March 2022?
 
 Code: 
 
@@ -34,7 +34,7 @@ Graphical Representation:
 
 Observation: EQUIFAX, INC., TRANSUNION INTERMEDIATE HOLDINGS, INC., Experian Information Solutions Inc., stands in the top 3 spots in the number game of recording complaints. It can be seen from the graph that there is more than 250% decrease in recording the complaints with the next highest, i.e., Bank of America which has 112k complaints.  
 
-6.	Check how did the companies respond to their customer’s complaints.
+6.Check how did the companies respond to their customer’s complaints.
 
 Code: 
 
@@ -61,7 +61,7 @@ Graphical Representation: Execute above code
 
 Observation: It can be observed that most of the companies have closed the complaints with explanations and there were negligible number of complaints which were untimely responded and closed with relief.
 
-7.	Visualize the Banking Companies using wordcloud.
+7.Visualize the Banking Companies using wordcloud.
 
 Code: 
 
