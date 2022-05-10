@@ -84,5 +84,5 @@ Observation: Among all the types of products, Credit reporting, credit repair se
 
 
 Classification Report with Precision, recall, F1 score has been performed during data analysis.
-
+Please click on the link: <a href="https://github.com/vrgarlapati/Garlapati_AIT580/blob/main/docs/Final%20Project%20python/Multi-class%20text%20classification.ipynb">Multi Text Classification</a>
 
