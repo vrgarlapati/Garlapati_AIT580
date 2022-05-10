@@ -1,6 +1,4 @@
-I"�<ol>
-  <li>Which three companies are facing a more significant number of complaints and try to show them with graphical representation using bars in the month of March 2022?</li>
-</ol>
+I"T<p>5.Which three companies are facing a more significant number of complaints and try to show them with graphical representation using bars in the month of March 2022?</p>
 
 <p>Code:</p>
 
@@ -24,13 +22,13 @@ complaints.Company.value_counts()[:10].plot(title = 'March 2022, Number of Compl
 plt.show()"
 </code></pre></div></div>
 
-<p>Graphical Representation: Execute above code</p>
+<p>Graphical Representation:</p>
+
+<p><img src="/Garlapati_AIT580/images/pages/52.png" alt="Flower and water" /></p>
 
 <p>Observation: EQUIFAX, INC., TRANSUNION INTERMEDIATE HOLDINGS, INC., Experian Information Solutions Inc., stands in the top 3 spots in the number game of recording complaints. It can be seen from the graph that there is more than 250% decrease in recording the complaints with the next highest, i.e., Bank of America which has 112k complaints.</p>
 
-<ol>
-  <li>Check how did the companies respond to their customer’s complaints.</li>
-</ol>
+<p>6.Check how did the companies respond to their customer’s complaints.</p>
 
 <p>Code:</p>
 
@@ -54,11 +52,11 @@ plt.show()"
 
 <p>Graphical Representation: Execute above code</p>
 
+<p><img src="/Garlapati_AIT580/images/pages/53.png" alt="Flower and water" /></p>
+
 <p>Observation: It can be observed that most of the companies have closed the complaints with explanations and there were negligible number of complaints which were untimely responded and closed with relief.</p>
 
-<ol>
-  <li>Visualize the Banking Companies using wordcloud.</li>
-</ol>
+<p>7.Visualize the Banking Companies using wordcloud.</p>
 
 <p>Code:</p>
 
