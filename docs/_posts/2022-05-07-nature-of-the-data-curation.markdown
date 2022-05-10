@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Nature of the Data Curation 
-date: 2022-05-09 17:32:29 -0400
-img: 2.jpg
+date: 2022-05-09 15:32:29 -0400
+img: 44.jpg
 tags: [Data]
 ---
 The Customer Financial Protection Bureau keeps track of all consumer complaints in a database. The Consumer Financial Protection Bureau (CFPB) was established on July 21, 2011, with the goal of fighting for customers' rights and overseeing customer satisfaction and protection in the financial industry.

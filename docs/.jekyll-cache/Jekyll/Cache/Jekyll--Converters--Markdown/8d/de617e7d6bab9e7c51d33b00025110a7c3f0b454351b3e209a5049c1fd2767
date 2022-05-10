@@ -1,4 +1,4 @@
-I"é<p>We installed some necessary libraries which were required to preprocess the data and implement LDA:</p>
+I"ç<p>We installed some necessary libraries which were required to preprocess the data and implement LDA:</p>
 
 <p>Spacy: This library is used to facilitate the implementation of NLP.</p>
 
@@ -17,5 +17,4 @@
 <p>Sklearn: Simple and efficient tools for predictive data analysis</p>
 
 <p><em>Thank You for reading!</em></p>
-
 :ET

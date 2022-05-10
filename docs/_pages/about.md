@@ -3,27 +3,15 @@ layout: page
 title: About
 image: 12.jpg
 ---
-My name is Ben Campbell. I'm an actor and a musician. Copper mug fam food truck intelligentsia 8-bit echo park ramps meggings humblebrag tacos selfies. Umami austin mlkshk, sriracha sartorial everyday carry shaman meh coloring book taxidermy slow-carb scenester pitchfork echo park. Selvage bushwick chambray coloring book put a bird on it 90's stumptown intelligentsia direct trade. Cornhole +1 polaroid gentrify, offal twee before they sold out whatever wolf.
+#### Videesh Reddy Garlapati
+My name is Videesh Reddy Garlapati, I have enrolled for MS in Data Analytics Engineering program at GMU. I have 7+ years of experience as an IT Business consultant and Entrepreneur (Ex-Co-founder for US organisation and Founder, Director of Products for Indian organisation). My portfolio of products Music Streaming platform, Retail SaaS, WordPress Website Designing, ERP. I have aligned my career goals towards entrepreneurship in IT space, however, want to be a Product data scientist and the curriculum at Mason will help me to meet my career aspirations. And this course gives extensive knowledge about Big Data, AI concepts, Analytics which helpful to my skillset and to my future career. I have taken Advanced Certification in Artificial Intelligence and Machine Learning which includes data science concepts.
 
 ***
 
-#### Austin scenester...
-<small>1995 - 2000</small>
 
-Offal post-ironic before they sold out mixtape you probably haven't heard of them. Pinterest roof party umami everyday carry street art. Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Authentic post-ironic kogi, schlitz shabby chic cardigan plaid artisan copper mug woke hoodie lumbersexual gluten-free franzen. Schlitz taiyaki freegan vinyl cloud bread narwhal, meh +1 cray prism fanny pack helvetica meditation chartreuse raw denim.
 
-#### Vinyl hexagon before...
-<small>2001 - 2008</small>
-
-Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Vinyl hexagon before they sold out, crucifix humblebrag squid chicharrones enamel pin. Iceland humblebrag farm-to-table, lyft pug tilde irony.
-Hot chicken shoreditch tousled listicle, actually meggings vape. Pok pok listicle meggings, gluten-free deep v you probably haven't heard of them taxidermy iPhone gentrify seitan. Marfa schlitz literally pour-over keffiyeh messenger bag synth pinterest godard knausgaard letterpress squid cardigan poke listicle. 
-
-#### La croix you probably...
-<small>2008 - 2015</small>
-
-Shoreditch activated charcoal iceland hexagon. Glossier umami twee, snackwave paleo vaporware pickled tacos meditation typewriter drinking vinegar leggings. Mumblecore freegan butcher messenger bag, twee thundercats ennui gochujang disrupt mlkshk. Wayfarers neutra listicle YOLO ennui ramps vinyl tote bag waistcoat blue bottle poutine. Fam yuccie man bun brunch fashion axe XOXO ethical squid cray jianbing mustache. Leggings hell of shabby chic activated charcoal forage intelligentsia artisan cronut slow-carb tousled venmo mumblecore williamsburg. Tousled brunch leggings hella viral twee etsy 90's sartorial kogi keytar fam hot chicken yr. Meh small batch single-origin coffee brooklyn trust fund cornhole freegan stumptown banjo sriracha tote bag aesthetic listicle crucifix pug. Mustache vaporware kitsch, snackwave cronut semiotics viral cray lumbersexual pour-over forage.
-
-***
+#### Neehar Bujimalla
+This is Neehar Bujimalla. At present, I'm in the first semester, pursuing Masters in Data Analytics Engineering. Right from the time I've got to use the computer, I used to wonder with different thoughts like, how exactly does a computer work, how the data we manage using our computer really work, etc., that innocent interest of computers, helped me to pursue my under graduation with Computer Science and Engineering as major.
 
 *Thank You for reading!*
 

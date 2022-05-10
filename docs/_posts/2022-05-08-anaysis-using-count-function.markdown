@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  Analysis using count function and wordcloud
-date:   2022-05-09 12:46:27 -0400
-img: 3.jpg
-tags: [Tour, Music]
+date:   2022-05-09 13:50:27 -0400
+img: 34.jpg
+tags: [Data]
 ---
 5.	Which three companies are facing a more significant number of complaints and try to show them with graphical representation using bars in the month of March 2022?
 

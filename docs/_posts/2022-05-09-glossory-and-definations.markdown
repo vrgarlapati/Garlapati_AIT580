@@ -1,7 +1,9 @@
 ---
-layout: page
-title: Definations
-image: 12.jpg
+layout: post
+title: Glossory and Definations
+date: 2022-05-09 13:29:50 -0400
+img: 31.png
+tags: [Data]
 ---
 We installed some necessary libraries which were required to preprocess the data and implement LDA:
 
@@ -23,4 +25,3 @@ Sklearn: Simple and efficient tools for predictive data analysis
 
 
 *Thank You for reading!*
-

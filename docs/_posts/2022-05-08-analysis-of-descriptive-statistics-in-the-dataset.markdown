@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  Analysis of descriptive statistics in the dataset
-date:   2022-05-09 10:11:50 -0400
-img: 8.jpg
-tags: [Inspiration, Music, Tips, Guitar]
+date:   2022-05-09 13:57:50 -0400
+img: 35.jpg
+tags: [Analysis, Data]
 ---
 Briefly describe the dataset. Prepare and describe relevant metadata (types of attributes/variables in the dataset).
 

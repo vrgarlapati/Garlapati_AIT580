@@ -1,14 +1,14 @@
-I"�<ol>
+I"�<ol>
   <li>Which three companies are facing a more significant number of complaints and try to show them with graphical representation using bars in the month of March 2022?</li>
 </ol>
 
 <p>Code:</p>
 
-<p>“complaints.Company.value_counts()[:10]</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"complaints.Company.value_counts()[:10]
 
-<p>Numerical O/p: Execute above statement</p>
+Numerical O/p: Execute above statement
 
-<p>EQUIFAX, INC.                             428075
+EQUIFAX, INC.                             428075
 TRANSUNION INTERMEDIATE HOLDINGS, INC.    332426
 Experian Information Solutions Inc.       307519
 BANK OF AMERICA, NATIONAL ASSOCIATION     112499
@@ -18,10 +18,11 @@ CITIBANK, N.A.                             74924
 CAPITAL ONE FINANCIAL CORPORATION          66446
 SYNCHRONY FINANCIAL                        37072
 Navient Solutions, LLC.                    36315
-Name: Company, dtype: int64</p>
+Name: Company, dtype: int64
 
-<p>complaints.Company.value_counts()[:10].plot(title = ‘March 2022, Number of Complaints by Company (top 10)’, kind=’bar’)
-plt.show()”</p>
+complaints.Company.value_counts()[:10].plot(title = 'March 2022, Number of Complaints by Company (top 10)', kind='bar')
+plt.show()"
+</code></pre></div></div>
 
 <p>Graphical Representation: Execute above code</p>
 
@@ -33,22 +34,23 @@ plt.show()”</p>
 
 <p>Code:</p>
 
-<p>“complaints[‘Company response to consumer’].value_counts()</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"complaints['Company response to consumer'].value_counts()
 
-<p>Numerical O/p:</p>
+Numerical O/p: 
 
-<p>Closed with explanation                    2133599
-Closed with non-monetary relief       313687
-Closed with monetary relief               114150
-In progress                                               44589
-Closed without relief                             17868
-Closed                                                       17611
+Closed with explanation                             2133599
+Closed with non-monetary relief                     313687
+Closed with monetary relief                         114150
+In progress                                         44589
+Closed without relief                               17868
+Closed                                              17611
 Untimely response                                   9233
-Closed with relief                                      5304
-Name: Company response to consumer, dtype: int64</p>
+Closed with relief                                  5304
+Name: Company response to consumer, dtype: int64
 
-<p>complaints[‘Company response to consumer’].value_counts().plot(title=’March 2022, Company Response to Complaints’, kind=’bar’)
-plt.show()”</p>
+complaints['Company response to consumer'].value_counts().plot(title='March 2022, Company Response to Complaints', kind='bar')
+plt.show()"
+</code></pre></div></div>
 
 <p>Graphical Representation: Execute above code</p>
 
@@ -67,14 +69,15 @@ def plot_wordcloud(wordcloud1):
     plt.axis(“off”)
     plt.show()</p>
 
-<p>from nltk.corpus import stopwords
-stop_words = stopwords.words(‘english’)</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from nltk.corpus import stopwords
+stop_words = stopwords.words('english')
 
-<p>company_names = complaints.Company.values.tolist()</p>
+company_names = complaints.Company.values.tolist()
 
-<p>wordcloud1 = WordCloud(max_font_size=None, max_words = 200, background_color=”white”, width=5000, height=4000, stopwords = stop_words).generate(str(company_names))</p>
+wordcloud1 = WordCloud(max_font_size=None, max_words = 200, background_color="white", width=5000, height=4000, stopwords = stop_words).generate(str(company_names))
 
-<p>plot_wordcloud(wordcloud)”</p>
+plot_wordcloud(wordcloud)"
+</code></pre></div></div>
 
 <p>Output: Execute the above code
 <img src="/Garlapati_AIT580/images/pages/28.png" alt="Flower and water" /></p>

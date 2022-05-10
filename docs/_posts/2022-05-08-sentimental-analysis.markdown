@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Sentimental Analysis
-date:   2022-05-09 13:12:27 -0400
-img: 7.jpg
+date:   2022-05-09 13:39:27 -0400
+img: 34.jpg
 tags: [Analysis, Data]
 ---
 8.	Using the sentiment analysis of the Consumer complaint narrative, discuss the different kinds of complaints and their sentiment scores.

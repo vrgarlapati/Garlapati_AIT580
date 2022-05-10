@@ -1,43 +1,29 @@
 # Site settings
 title: Garlapati Bujimalla
-description: Credit Information Data with Data Visulation by VIDEESH REDDY GARLAPATI, NEEHAR BUJIMALLA
-baseurl: "/Garlapati_AIT580" # the subpath of your site, e.g. /blog
-url: "https://vrgarlapati.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+description: Credit Information Data with Data Visualization
+baseurl: "/Garlapati_AIT580"
+url: "https://vrgarlapati.github.io/" # the base hostname & protocol for your site.
 
 # Banner Section
 hero: 112.jpg
-hero-title: Wlcome to Garlapati Bujimalla
-hero-description: Credit Information Data with Data Visulation.
+hero-title: Welcome to Garlapati Bujimalla
+hero-description: Credit Information Data with Data Visualization by VIDEESH REDDY GARLAPATI, NEEHAR BUJIMALLA.
 
 # Author - Creator
 author-name: Videesh Reddy Garlapati
-author-image: 10.jpg
+author-image:
 about-author: My name is Videeh. Student at GMU.
-author-email: help.example@gmail.com
-author-twitter: https://twitter.com/
-author-facebook: https://twitter.com/
-author-instagram: https://www.instagram.com/
-author-pinterest: https://pinterest.com/
+author-email: vgarlapa@gmu.edu
+
 
 # Other Authors - here you can add Other authors.
 authors:
   Neehar Bujimalla:
     author-name: Neehar Bujimalla
-    author-image: 111.jpg
+    author-image: 
     about-author: My name is Neehar Bujimalla.
-    author-email: example@gmail.com
-    author-twitter: https://twitter.com/
-    author-facebook: https://twitter.com/
-    author-instagram: https://www.instagram.com/
-    author-pinterest: https://pinterest.com/
+    author-email: vbujimal@gmu.edu
 
-# Social Media Links (Links are located in hero and footer)
-twitter: https://twitter.com/
-facebook: https://facebook.com/
-google-plus: https://plus.google.com/
-instagram: https://www.instagram.com/
-pinterest: https://pinterest.com/
-youtube: https://www.youtube.com/
 
 # Contact Form Settings
 contact-subtitle: Contact us if you have any doubts # Title for the subscription form.

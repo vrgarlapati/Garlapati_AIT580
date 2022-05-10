@@ -1,14 +1,3 @@
-### Features
-
-* Included site search
-* Contact Page
-* Post sharing
-* Social Media Profiles
-* Font Awesome fonts
-* Google Fonts
-
-* * *
-
 ### Deployment
 
 To run the this locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
