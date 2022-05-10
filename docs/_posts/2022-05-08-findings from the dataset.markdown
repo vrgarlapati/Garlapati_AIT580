@@ -22,19 +22,20 @@ Graphical Representation: ![Flower and water]({{site.baseurl}}/images/pages/1.pn
 Observation: California has recorded the maximum number of complaints; with this, it is recommended that the bankers in CA work better on resolving the queries of their customers.
 
 
-2.	In the state that registered with the highest number of complaints, what is the highest portion of the type of product and issue concerned with reported complaints?
+2.In the state that registered with the highest number of complaints, what is the highest portion of the type of product and issue concerned with reported complaints?
 
-Code: 
+    Code: 
 
-Product: 
+    "Product type:
 
-    "complaints[complaints['State'] == 'CA']['Product'].value_counts().head(10).plot.pie(explode=[0.1,0,0,0,0,0,0,0,0,0],shadow=True)
+    complaints[complaints['State'] == 'CA']['Product'].value_counts().head(10).plot.pie(explode=[0.1,0,0,0,0,0,0,0,0,0],shadow=True)
     import matplotlib.pyplot as plt
     plt.gca().set_aspect('equal')"
 
 Graph: Refer to output ![Flower and water]({{site.baseurl}}/images/pages/23.png)
 
-State and Issue:
+Issue:
+    
     "complaints[complaints['State'] == 'CA']['Issue'].value_counts().head(10).plot.pie(explode=[0.1,0,0,0,0,0,0,0,0,0],shadow=True)
     import matplotlib.pyplot as plt
     plt.gca().set_aspect('equal')"
@@ -45,9 +46,9 @@ Observation on Product type: Credit reporting, credit repair services, or other 
 
 Observation on Issue: Incorrect information on your report has swept over larger area among all the issues concerned with the CA complaints.
 
-3. Estimate the proportion of types of products associated with the complaints 
+3.Estimate the proportion of types of products associated with the complaints 
 
-Code: 
+    Code: 
 
     "prd = round(complaints["Product"].value_counts() / len(complaints["Product"]) * 100,2)
     print(prd)
@@ -62,8 +63,7 @@ Code:
 Interactive Representation: 
 ![Flower and water]({{site.baseurl}}/images/pages/25.jpeg)
 
-
-4.	What are the first 3 product types that are associated with the complaints, and try to represent them numerically using a bar graph in the month of March 2022?
+4.What are the first 3 product types that are associated with the complaints, and try to represent them numerically using a bar graph in the month of March 2022?
 
 Code: 
 
@@ -84,4 +84,5 @@ Observation: Among all the types of products, Credit reporting, credit repair se
 
 
 Classification Report with Precision, recall, F1 score has been performed during data analysis.
+
 
