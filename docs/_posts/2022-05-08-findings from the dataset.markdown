@@ -28,17 +28,16 @@ Code:
 
 Product: 
 
-"complaints[complaints['State'] == 'CA']['Product'].value_counts().head(10).plot.pie(explode=[0.1,0,0,0,0,0,0,0,0,0],shadow=True)
-import matplotlib.pyplot as plt
-plt.gca().set_aspect('equal')"
+    "complaints[complaints['State'] == 'CA']['Product'].value_counts().head(10).plot.pie(explode=[0.1,0,0,0,0,0,0,0,0,0],shadow=True)
+    import matplotlib.pyplot as plt
+    plt.gca().set_aspect('equal')"
 
 Graph: Refer to output ![Flower and water]({{site.baseurl}}/images/pages/23.png)
 
 State and Issue:
-"complaints[complaints['State'] == 'CA']['Issue'].value_counts().head(10).plot.pie(explode=[0.1,0,0,0,0,0,0,0,0,0],shadow=True)
-# Unsquish the pie.
-import matplotlib.pyplot as plt
-plt.gca().set_aspect('equal')"
+    "complaints[complaints['State'] == 'CA']['Issue'].value_counts().head(10).plot.pie(explode=[0.1,0,0,0,0,0,0,0,0,0],shadow=True)
+    import matplotlib.pyplot as plt
+    plt.gca().set_aspect('equal')"
 
 Graph: Refer to output ![Represention between state and issue using pie-chart]({{site.baseurl}}/images/pages/24.png)
 
@@ -50,18 +49,18 @@ Observation on Issue: Incorrect information on your report has swept over larger
 
 Code: 
 
-"prd = round(complaints["Product"].value_counts() / len(complaints["Product"]) * 100,2)
-print(prd)
-labels = list(prd.index)
-values = prd.values.tolist()
-colors = ['#F78181', '#F5A9BC', '#2E9AFE', '#58FA58', '#FAAC58', '#088A85', '#8A0808', '#848484', '#F781F3', '#D7DF01', '#2E2EFE']
-prd_pie = go.Pie(labels=labels, values=values, marker=dict(colors=colors, line=dict(color='#000000', width=2)))
-lyt = go.Layout(title='Product Types')
-fig = go.Figure(data=[prd_pie], layout=lyt)
-iplot(fig)"
+    "prd = round(complaints["Product"].value_counts() / len(complaints["Product"]) * 100,2)
+    print(prd)
+    labels = list(prd.index)
+    values = prd.values.tolist()
+    colors = ['#F78181', '#F5A9BC', '#2E9AFE', '#58FA58', '#FAAC58', '#088A85', '#8A0808', '#848484', '#F781F3', '#D7DF01', '#2E2EFE']
+    prd_pie = go.Pie(labels=labels, values=values, marker=dict(colors=colors, line=dict(color='#000000', width=2)))
+    lyt = go.Layout(title='Product Types')
+    fig = go.Figure(data=[prd_pie], layout=lyt)
+    iplot(fig)"
 
 Interactive Representation: 
-![Flower and water]({{site.baseurl}}/images/pages/18.jpg)
+![Flower and water]({{site.baseurl}}/images/pages/25.jpeg)
 
 
 4.	What are the first 3 product types that are associated with the complaints, and try to represent them numerically using a bar graph in the month of March 2022?
