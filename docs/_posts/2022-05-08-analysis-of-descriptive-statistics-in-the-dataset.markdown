@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Analysis of descriptive statistics in the dataset
-date:   2022-05-08 10:11:50 -0400
+date:   2022-05-09 10:11:50 -0400
 img: 8.jpg
 tags: [Inspiration, Music, Tips, Guitar]
 ---

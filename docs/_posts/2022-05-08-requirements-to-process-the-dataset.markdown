@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Requirements to process the dataset
-date: 2022-05-08 18:09:50 -0400
+date: 2022-05-09 17:29:50 -0400
 img: 17.jpg
-tags: [Books, Hobby]
-author: Natali_Braxton
+tags: [Data]
+author: Neehar Bujimalla
 ---
 What software and hardware resources you have used in this project? 
 Excel and Jupiter Notebook are the software - based resources used in this project to help you understand and visualize data. The laptop is a hardware resource, and for visualization approaches, a Lenovo laptop with an Intel i7 processor and 12 GB of RAM, as well as a Google colab GPU, TPU, was employed.

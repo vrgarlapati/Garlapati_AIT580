@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  Findings from the the analysis
-date:   2022-05-08 12:46:27 -0400
+date:   2022-05-09 11:46:27 -0400
 img: 5.jpg
-tags: [Traditions, Books, Morning]
+tags: [Analysis]
 ---
 
 Here are the representations we have drawn out from the questions we used for analysis.

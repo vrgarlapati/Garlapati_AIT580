@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Analysis using count function and wordcloud
-date:   2022-05-08 12:46:27 -0400
+date:   2022-05-09 12:46:27 -0400
 img: 3.jpg
 tags: [Tour, Music]
 ---
@@ -9,25 +9,24 @@ tags: [Tour, Music]
 
 Code: 
 
-"complaints.Company.value_counts()[:10]
+    "complaints.Company.value_counts()[:10]
 
-Numerical O/p: Execute above statement
+    Numerical O/p: Execute above statement
 
-EQUIFAX, INC.                             428075
-TRANSUNION INTERMEDIATE HOLDINGS, INC.    332426
-Experian Information Solutions Inc.       307519
-BANK OF AMERICA, NATIONAL ASSOCIATION     112499
-WELLS FARGO & COMPANY                      96113
-JPMORGAN CHASE & CO.                       89657
-CITIBANK, N.A.                             74924
-CAPITAL ONE FINANCIAL CORPORATION          66446
-SYNCHRONY FINANCIAL                        37072
-Navient Solutions, LLC.                    36315
-Name: Company, dtype: int64
+    EQUIFAX, INC.                             428075
+    TRANSUNION INTERMEDIATE HOLDINGS, INC.    332426
+    Experian Information Solutions Inc.       307519
+    BANK OF AMERICA, NATIONAL ASSOCIATION     112499
+    WELLS FARGO & COMPANY                      96113
+    JPMORGAN CHASE & CO.                       89657
+    CITIBANK, N.A.                             74924
+    CAPITAL ONE FINANCIAL CORPORATION          66446
+    SYNCHRONY FINANCIAL                        37072
+    Navient Solutions, LLC.                    36315
+    Name: Company, dtype: int64
 
-
-complaints.Company.value_counts()[:10].plot(title = 'March 2022, Number of Complaints by Company (top 10)', kind='bar')
-plt.show()"
+    complaints.Company.value_counts()[:10].plot(title = 'March 2022, Number of Complaints by Company (top 10)', kind='bar')
+    plt.show()"
 
 Graphical Representation: Execute above code
 
@@ -37,22 +36,22 @@ Observation: EQUIFAX, INC., TRANSUNION INTERMEDIATE HOLDINGS, INC., Experian Inf
 
 Code: 
 
-"complaints['Company response to consumer'].value_counts()
+    "complaints['Company response to consumer'].value_counts()
 
-Numerical O/p: 
+    Numerical O/p: 
 
-Closed with explanation                    2133599
-Closed with non-monetary relief       313687
-Closed with monetary relief               114150
-In progress                                               44589
-Closed without relief                             17868
-Closed                                                       17611
-Untimely response                                   9233
-Closed with relief                                      5304
-Name: Company response to consumer, dtype: int64
+    Closed with explanation                             2133599
+    Closed with non-monetary relief                     313687
+    Closed with monetary relief                         114150
+    In progress                                         44589
+    Closed without relief                               17868
+    Closed                                              17611
+    Untimely response                                   9233
+    Closed with relief                                  5304
+    Name: Company response to consumer, dtype: int64
 
-complaints['Company response to consumer'].value_counts().plot(title='March 2022, Company Response to Complaints', kind='bar')
-plt.show()"
+    complaints['Company response to consumer'].value_counts().plot(title='March 2022, Company Response to Complaints', kind='bar')
+    plt.show()"
 
 Graphical Representation: Execute above code
 
@@ -69,14 +68,14 @@ def plot_wordcloud(wordcloud1):
     plt.axis("off")
     plt.show()
 
-from nltk.corpus import stopwords
-stop_words = stopwords.words('english')
+    from nltk.corpus import stopwords
+    stop_words = stopwords.words('english')
 
-company_names = complaints.Company.values.tolist()
+    company_names = complaints.Company.values.tolist()
 
-wordcloud1 = WordCloud(max_font_size=None, max_words = 200, background_color="white", width=5000, height=4000, stopwords = stop_words).generate(str(company_names))
+    wordcloud1 = WordCloud(max_font_size=None, max_words = 200, background_color="white", width=5000, height=4000, stopwords = stop_words).generate(str(company_names))
 
-plot_wordcloud(wordcloud)"
+    plot_wordcloud(wordcloud)"
 
 Output: Execute the above code
 ![Flower and water]({{site.baseurl}}/images/pages/28.png)
